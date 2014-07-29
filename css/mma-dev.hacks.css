@@ -1,0 +1,61 @@
+@media all and (max-width: 800px) {
+  #toolbar, #admin-menu {
+    display: none;
+  }
+
+  html body.toolbar, html body.admin-menu {
+    padding-top: 0 !important;
+    margin-top: 0 !important;
+  }
+}
+
+/*	Import google webfonts	*/
+/*Lora*/
+@import url(http://fonts.googleapis.com/css?family=Lora&subset=latin,latin-ext);
+/*Osvald*/
+@import url(http://fonts.googleapis.com/css?family=Oswald:400,700&subset=latin,latin-ext);
+/*  Open Sans */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:700italic,800italic,800,700&subset=latin,latin-ext);
+/*  typography basics */
+/*  basics  */
+p {
+	font-family: 'Lora', 'Times New Roman', serif;
+	font-size: 1.25em;
+	line-height: 1.65em;
+  color: #414141;
+}
+
+/*  typo  */
+
+.node__title {
+  font-family: 'Open Sans', sans-serif;
+  margin-bottom: 0.46em;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+a {
+    color: #1f282d;
+    text-decoration: none;
+  }
+
+.flex-caption  {
+  font-family: arial, serif;
+  font-size: 0.75em;
+}
+.group-right { 
+width: 36%; 
+padding-left: 2%; 
+float: right; 
+}
+
+.group-left { 
+width: 62%; 
+}
+
+.field-name-field-event-image { 
+margin-top: 20px; 
+} 
+.getlocations_map_canvas { 
+max-width: 100%; 
+}
