@@ -18,6 +18,11 @@ stylesheets[all][] = css/mma-dev.no-query.css
 ; ========================================
 scripts[] = js/mma-dev.behaviors.js
 
+
+; Layout Settings
+layout[mma][stylesheets][all][] = css/layouts/mma/mma.layout.css
+
+
 ; ========================================
 ; Regions
 ; ========================================
@@ -88,3 +93,4 @@ settings[omega_libraries][selectivizr][status] = 0
 settings[omega_libraries][respond][status] = 0
 settings[omega_libraries][pie][status] = 0
 settings[omega_libraries][html5shiv][status] = 0
+settings[omega_libraries][headhesive][status] = 0

@@ -1,10 +1,9 @@
-name = mma
+name = Hero
 description = A 3 column layout with a prominent hero region.
 preview = preview.png
-template = mma-layout
+template = hero-layout
 
 ; Regions
-regions[top_menu]		= Top Menu
 regions[branding]       = Branding
 regions[navigation]     = Navigation bar
 regions[header]         = Header
@@ -17,5 +16,5 @@ regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
 
 ; Stylesheets
-stylesheets[all][] = css/layouts/mma/mma.layout.css
-stylesheets[all][] = css/layouts/mma/mma.layout.no-query.css
+stylesheets[all][] = css/layouts/hero/hero.layout.css
+stylesheets[all][] = css/layouts/hero/hero.layout.no-query.css
