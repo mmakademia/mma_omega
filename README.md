@@ -1,4 +1,4 @@
-mma_omega
+MMA Omega
 =========
 
 Academics and artifacts
