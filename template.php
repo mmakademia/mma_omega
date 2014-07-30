@@ -2,6 +2,5 @@
 
 /**
  * @file
- * Template overrides as well as (pre-)process and alter hooks for the
- * mma-dev theme.
+ * Template overrides and (pre-)process hooks for the Omega base theme.
  */
